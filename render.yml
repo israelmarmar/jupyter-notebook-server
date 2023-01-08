@@ -1,0 +1,7 @@
+services:
+ - type: web
+    name: foo
+    ... other bits and bobs ...
+    envVars:
+      - key: PORT
+        value: 8888

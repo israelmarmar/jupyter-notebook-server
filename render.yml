@@ -5,3 +5,5 @@ services:
     envVars:
       - key: PORT
         value: 8888
+    volumes:
+      - 'foo:/work'
